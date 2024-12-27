@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-soljournal = "coUnmi3oBUtwtd9fjeAvSsJssXh5A5xyPbhpewyzRVF"
+soljournal = "BT189HihnPJAcjn35zr1gT9UXNeFuBDFZnRCUCiiMJRi"
 
 [registry]
 url = "https://api.apr.dev"
