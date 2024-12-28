@@ -16,11 +16,11 @@ export default function SoljournalFeature() {
       <AppHero
         title="Soljournal"
         subtitle={
-          'Create a new account by clicking the "Create" button. The state of a account is stored on-chain and can be manipulated by calling the program\'s methods (increment, decrement, set, and close).'
+          'Create new Journal, delete them etc.'
         }
       >
         <p className="mb-6">
-          <ExplorerLink path={`account/${programId}`} label={ellipsify(programId.toString())} />
+          Journal Program Address <ExplorerLink path={`account/${programId}`} label={ellipsify(programId.toString())} />
         </p>
         <SoljournalCreate />
       </AppHero>
